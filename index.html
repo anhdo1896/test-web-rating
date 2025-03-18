@@ -2,14 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test-web-rating/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="%PUBLIC_URL%" />
-    <title>Vite + React + TS</title>
-    <script type="module" crossorigin src="/test-web-rating/assets/index-B53V8IbK.js"></script>
-    <link rel="stylesheet" crossorigin href="/test-web-rating/assets/index-CLMsBiyE.css">
+    <title>Widget Test Page</title>
   </head>
   <body>
-    <div id="root"></div>
+    <h1>Test Page</h1>
+    <p>This page tests the widget integration.</p>
+
+    <script
+      async
+      src="http://localhost:5173/widget.js"
+      data-client-key="test-key"
+      data-position="bottom"
+    ></script>
   </body>
 </html>
